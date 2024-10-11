@@ -1,0 +1,581 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+.navbar{
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    align-items:center;
+    display: flex;
+}
+.logo{
+    background-image: url("logo.png");
+    width: 421px;
+    height: 72px;
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 35%;
+}
+.photo
+{
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    background-size: cover
+
+}
+
+.info{
+    margin-left: 20px;
+}
+.fill_info{
+    margin-left: 10px;
+}
+#name{
+    color: orange;
+}
+#roll{
+    color: orange;
+}
+#time{
+    background-color: blue;
+    color:white;
+    border:2px solid blue;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.navbar2{
+    background-color: orange;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#exam{
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    margin-left: 40px;
+}
+.subject{
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+#physics{
+    background-color: blue;
+    border: none;
+    text-align: center;
+    width: 120px;
+    color: white;
+    height: 30px;
+    margin: 10px;
+}
+#chemistry{
+    background-color: blue;
+    border: none;
+    text-align: center;
+    width: 130px;
+    color: white;
+    height: 30px;
+    margin: 10px;
+}
+#mathematics{
+    background-color: blue;
+    border: none;
+    text-align: center;
+    width: 150px;
+    color: white;
+    height: 30px;
+    margin: 10px;
+}
+#download{
+    margin-left: 100px;
+    color: white;
+    margin-bottom: 17px;
+}
+#dow{
+    font-size: 0.7rem;
+}
+#btn_down{
+    background-color: blue;
+    color: white;
+    border:none;
+    text-align: center;
+    width: 200px;
+    margin-left: 0px;
+    height: 30px;
+}
+.lang{
+    margin-left: 20%;
+    margin-bottom: 20px;
+    color: white;
+}
+#language{
+    height: 30px;
+    width: 180px;
+}
+
+.question{
+    margin-left: 60px;
+    margin-top: 10px;
+    overflow-y: scroll;
+    width: 1000px;
+    height: 360px;
+    background-color: white;
+}
+.que{
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.hr1{
+    height: 1px;
+    background-color: black;
+    margin-top: 10px;
+    width: 1000px;
+    margin-left: 60px;
+}
+.hr2{
+    height: 0.9px;
+    background-color: black;
+    margin-top: 10px;
+    width: 1000px;
+    margin-left: 60px;
+}
+.save_next{
+    background-color: rgb(19, 203, 19);
+    color:white;
+    border:none;
+    width: 160px;
+    height: 30px;
+    margin-left: 60px;
+    margin-top: 20px;
+
+}
+.save_mark{
+    background-color: orange;
+    color: white;
+    border:none;
+    width: 260px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+.clear{
+    background-color: whitesmoke;
+    width: 160px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border:1px solid black
+
+}
+.mark_next{
+    background-color:blue;
+    color: white;
+    border:none;
+    width: 240px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.lastbtn{
+    width: 1000px;
+    height: 80px;
+    background-color: whitesmoke;
+    margin-left: 60px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.back{
+    background-color:whitesmoke;
+    border:none;
+    width: 100px;
+    height: 30px;
+    margin-left: 20px;
+    border:0.2px solid black;
+
+}
+
+.next{
+    background-color:white;
+    border:none;
+    width: 100px;
+    height: 30px;
+    border:0.2px solid black;
+}
+.submit{
+    background-color:rgb(25, 208, 25);
+    color: white;
+    border:none;
+    width: 100px;
+    height: 30px;
+    margin-left: 65%;
+    cursor:not-allowed;
+
+}
+.qu_btn{
+    width: 320px;
+    height: 300px;
+    position: absolute;
+    left: 1120px;
+    bottom: 60px;
+}
+button{
+    cursor: pointer;
+}
+#btn1{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-image: url("Logo1.png");
+    background-size: cover;
+    color: black;
+    border: none;
+}
+#btn2{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-image: url("Logo1.png");
+    background-size: cover;
+    color: black;
+    border: none;
+}
+#btn3{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-image: url("Logo1.png");
+    background-size: cover;
+    color: black;
+    border: none;
+}
+#btn4{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-image: url("Logo1.png");
+    background-size: cover;
+    color: black;
+    border: none;
+}
+
+#btn5{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-image: url("Logo1.png");
+    background-size: cover;
+    color: black;
+    border: none;
+}
+
+#btn6{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-image: url("Logo1.png");
+    background-size: cover;
+    color: black;
+    border: none;
+}
+#btn7{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-image: url("Logo1.png");
+    background-size: cover;
+    color: black;
+    border: none;
+}
+#btn8{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-image: url("Logo1.png");
+    background-size: cover;
+    color: black;
+    border: none;
+}
+#btn9{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-image: url("Logo1.png");
+    background-size: cover;
+    color: black;
+    border: none;
+}
+#btn10{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-image: url("Logo1.png");
+    background-size: cover;
+    color: black;
+    border: none;
+}
+#btn11{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-image: url("Logo1.png");
+    background-size: cover;
+    color: black;
+    border: none;
+}
+#btn12{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-image: url("Logo1.png");
+    background-size: cover;
+    color: black;
+    border: none;
+}
+#btn13{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-image: url("Logo1.png");
+    background-size: cover;
+    color: black;
+    border: none;
+}
+#btn14{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-image: url("Logo1.png");
+    background-size: cover;
+    color: black;
+    border: none;
+}
+#btn15{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-image: url("Logo1.png");
+    background-size: cover;
+    color: black;
+    border: none;
+}
+#btn16{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-image: url("Logo1.png");
+    background-size: cover;
+    color: black;
+    border: none;
+}
+#btn17{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-image: url("Logo1.png");
+    background-size: cover;
+    color: black;
+    border: none;
+}
+#btn18{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border: none;
+    color: white;
+    background-image: url("Logo1.png");
+    background-size: cover;
+    color: black;
+    border: none;
+}
+#btn19{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-image: url("Logo1.png");
+    background-size: cover;
+    color: black;
+    border: none;
+}
+#btn20{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-image: url("Logo1.png");
+    background-size: cover;
+    color: black;
+    border: none;
+}
+#btn21{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-image: url("Logo1.png");
+    background-size: cover;
+    color: black;
+    border: none;
+}
+#btn22{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-image: url("Logo1.png");
+    background-size: cover;
+    color: black;
+    border: none;
+}
+#btn23{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-image: url("Logo1.png");
+    background-size: cover;
+    color: black;
+    border: none;
+}
+#btn24{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-image: url("Logo1.png");
+    background-size: cover;
+    color: black;
+    border: none;
+}
+#btn25{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-image: url("Logo1.png");
+    background-size: cover;
+    color: black;
+    border: none;
+}
+
+
+.info_btn{
+    width: 320px;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    left: 1120px;
+    bottom: 400px;
+    padding-top: 10px;
+}
+#not_visited{
+    width: 45px;
+    height: 45px;
+    background-image: url("Logo1.png");
+    background-size: cover;
+    color: rgb(30, 21, 21);
+    border:none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: -5px;
+    margin-top: -10px;
+
+}
+.novis{
+    position: absolute;
+    left: 50px;
+    bottom: 175px;
+}
+#not_answered{
+    width: 40px;
+    height: 40px;
+    background-image: url("Logo2.png");
+    background-size: cover;
+    color: white;
+    border:none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: absolute;
+    left: 140px;
+    bottom: 168px;
+
+}
+.noans{
+    position: absolute;
+    left: 200px;
+    bottom: 180px;
+}
+#answered{
+    width: 40px;
+    height: 40px;
+    background-image: url("Logo3.png");
+    background-size: cover;
+    color: white;
+    border:none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    position: absolute;
+    bottom: 110px;
+
+}
+.ans{
+    position: absolute;
+    left: 50px;
+    bottom: 120px;
+}
+#mark_for_review{
+    width: 40px;
+    height: 40px;
+    /*border-radius: 50%;
+    background-color: rgba(139, 12, 236, 0.632);*/
+    background-image: url("Logo4.png");
+    background-size: cover;
+    color: white;
+    border: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: absolute;
+    left: 140px;
+    bottom: 110px;
+
+}
+.mark{
+    position: absolute;
+    left: 195px;
+    bottom: 120px;
+}
+#answer_marked{
+    width: 40px;
+    height: 40px;
+    background-image: url("Logo5.png");
+    background-size: cover;
+    color: white;
+    border:none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    position: absolute;
+    bottom: 40px;
+
+}
+.ansmark{
+    position: absolute;
+    left: 50px;
+    bottom: 30px;
+}
